@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="16116" started-at="2020-04-07T15:01:46 GMT+07:00" finished-at="2020-04-07T15:02:03 GMT+07:00">
+    <groups>
+    </groups>
+    <test name=" Test KDV site" duration-ms="16116" started-at="2020-04-07T15:01:46 GMT+07:00" finished-at="2020-04-07T15:02:03 GMT+07:00">
+      <class name="TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestBase@1c80e49b]" name="initialize" is-config="true" duration-ms="24042" started-at="2020-04-07T15:01:22 GMT+07:00" finished-at="2020-04-07T15:01:46 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:TestBase@1c80e49b]" name="tearDownTest" is-config="true" duration-ms="1497" started-at="2020-04-07T15:02:03 GMT+07:00" finished-at="2020-04-07T15:02:04 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- TestBase -->
+      <class name="ChromeDriverTest">
+        <test-method status="PASS" signature="verifyChangingLocation()[pri:0, instance:ChromeDriverTest@458342d3]" name="verifyChangingLocation" duration-ms="3942" started-at="2020-04-07T15:01:47 GMT+07:00" finished-at="2020-04-07T15:01:50 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangingLocation -->
+        <test-method status="PASS" signature="verifySearchingProductByName()[pri:0, instance:ChromeDriverTest@458342d3]" name="verifySearchingProductByName" duration-ms="2518" started-at="2020-04-07T15:01:51 GMT+07:00" finished-at="2020-04-07T15:01:54 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingProductByName -->
+        <test-method status="PASS" signature="verifyOpeningProductViaCatalog()[pri:0, instance:ChromeDriverTest@458342d3]" name="verifyOpeningProductViaCatalog" duration-ms="6074" started-at="2020-04-07T15:01:54 GMT+07:00" finished-at="2020-04-07T15:02:00 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpeningProductViaCatalog -->
+        <test-method status="PASS" signature="verifyAddingProductInCart()[pri:0, instance:ChromeDriverTest@458342d3]" name="verifyAddingProductInCart" duration-ms="2314" started-at="2020-04-07T15:02:00 GMT+07:00" finished-at="2020-04-07T15:02:02 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingProductInCart -->
+        <test-method status="PASS" signature="verifySlidingRecommendations()[pri:0, instance:ChromeDriverTest@458342d3]" name="verifySlidingRecommendations" duration-ms="588" started-at="2020-04-07T15:02:02 GMT+07:00" finished-at="2020-04-07T15:02:03 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlidingRecommendations -->
+      </class> <!-- ChromeDriverTest -->
+    </test> <!--  Test KDV site -->
+  </suite> <!-- Test Suite -->
+</testng-results>

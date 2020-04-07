@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name=" Test KDV site">
+        <classes>
+            <class name="TestBase" />
+            <class name="ChromeDriverTest">
+                <methods>
+                    <include name = "verifyChangingLocation"/>
+                    <include name = "verifySearchingProductByName"/>
+                    <include name = "verifyOpeningProductViaCatalog"/>
+                    <include name = "verifyAddingProductInCart"/>
+                    <include name = "verifySlidingRecommendations"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
