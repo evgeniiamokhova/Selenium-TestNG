@@ -1,10 +1,12 @@
 Automation test cases for kdvonline.ru site
+
 Created by using:
 Maven
 Java
 Selenium WebDriver
 TestNG
 Allure
+
 Steps for running tests:
 1) Clone git repository to local machine
 2) Open myTest project via IDE
